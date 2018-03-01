@@ -1,0 +1,62 @@
+body{
+	background-image: url("images/Charles_Darwin_As_An_Ape.png");
+    background-repeat: repeat;
+    background-position: right top;
+    margin-right: 200px;
+    background-attachment: fixed;
+	background-color:white;
+	width:100%;
+	height:100%;
+}
+
+h1{
+	text-align:center;
+	font-family:georgian;
+	font-size:50px;
+}
+
+#clock{
+	width:200px;
+	border:transparent;
+	margin:auto;
+	background-color:transparent;
+	color:black;
+	font-size:30px;
+	text-align:center;
+}
+
+hr{
+	backgtound-color:black;
+	font-weight:bold;
+	width:95%;
+	height:10px;
+}
+
+#mainContent{
+	padding:20px;
+	margin:auto;
+	border:1px solid black;
+	height:500px;
+	width:800px;
+	background-color:lightblue;
+	border-radius:10%;
+	font-size:25px;
+	font-family:georgian;
+}
+
+button{
+	margin:auto;
+}
+
+@media all and (max-width:1200px){
+	#mainContent{
+		background-color:pink;
+		margin:auto;
+		height:100%;
+		width:80%;
+}
+	h1{
+		text-align:center;
+		color:red;
+}
+}

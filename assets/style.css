@@ -1,0 +1,64 @@
+body{
+	background-image: url("images/Charles_Darwin_As_An_Ape.png");
+    background-repeat: repeat;
+    background-position: right top;
+    margin-right: 200px;
+    background-attachment: fixed;
+	background-color:white;
+	width:100%;
+	height:100%;
+}
+
+h1{
+	text-align:center;
+	font-family:georgian;
+	font-size:50px;
+}
+
+#clock{
+	height:50px;
+	width:100px;
+	border:transparent;
+	margin:auto;
+	background-color:white;
+	color:black;
+	font-size:30px;
+	border-radius:30%;
+	text-align:center;
+}
+
+#mainContent{
+	margin-left:250px;
+	border:1px solid black;
+	height:100%;
+	width:800px;
+	background-color:lightblue;
+	border-radius:10%;
+}
+
+.question1{
+	margin-top:20px;
+	margin-left:10px;
+}
+
+@media all and (max-width:1200px){
+	h1{
+		text-align:center;
+		color:red;
+	}
+}
+
+@media all and (max-width:1200px){
+	body{
+		width:100%;
+	}
+}
+	
+@media all and (max-width:1200px){
+	#mainContent{
+		margin-left:15%;
+		margin-right:10%;
+		width:70%;
+		background-color:pink;
+	}
+}
